@@ -1,5 +1,7 @@
 # OpenPID
 
+[![CI](https://github.com/dxyinme/openpid/actions/workflows/ci.yml/badge.svg)](https://github.com/dxyinme/openpid/actions/workflows/ci.yml)
+
 header-only 的 C++17 离散 PID 库。热路径不分配内存、不抛异常，标量类型默认为 `double`，也可以实例化为 `float`。
 
 ## 特性
