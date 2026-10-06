@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
   pull_request:
+    branches: [main]
 
 jobs:
   test:
@@ -19,6 +20,9 @@ jobs:
           - name: Ubuntu Clang
             os: ubuntu-latest
             cxx: clang++
+          - name: Ubuntu ARM GCC
+            os: ubuntu-24.04-arm
+            cxx: g++
           - name: Windows MSVC
             os: windows-latest
 
